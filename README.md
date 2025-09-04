@@ -17,42 +17,30 @@ Observação: os arquivos `.dir` servem apenas para manter as pastas no Git, já
 
 ---
 
-## ⚙️ Instalação
+instalacao_execucao:
+  passo_1: # Clonar o repositório
+    - comando: git clone https://github.com/marcioroliveira79/robo-ipca-parquet.git
+    - comando: cd robo-ipca-parquet
 
-### Pré-requisitos
-- **Python 3.9+** ou superior
-- **Git** para clonar o repositório.
+  passo_2: # Criar ambiente virtual
+    windows:
+      - comando: setup.bat
+    linux_mac:
+      - comando: chmod +x setup.sh
+      - comando: ./setup.sh
 
-### Passo 1: Clonar o repositório
-```bash
-git clone https://github.com/marcioroliveira79/robo-ipca-parquet.git
-cd robo-ipca-parquet
+  passo_3: # Executar o robô
+    - comando: python main.py
 
-setup.bat
-
-### Criar ambiente no Windows
-setup.bat
-
-### Criar ambiente no Linux
-chmod +x setup.sh
-./setup.sh
-
-#### Passo 2: ▶️ Execução
-python main.py
-
-#### 📊 Resultados
-
-Saída (resultados): database/out/
-Arquivos .csv e .parquet com timestamp no nome (ex.: ipca_04-09-2025-15-42.csv).
-Logs: database/log/
-Arquivos .log contendo os detalhes de cada execução.
-Entradas brutas: database/in/
-O JSON baixado diretamente do SIDRA/IBGE, salvo com timestamp.
-
-#### 📄 Exemplos de saída
-
-database/out/ipca_04-09-2025-15-42.csv
-database/out/ipca_04-09-2025-15-42.parquet
-database/log/2025-09-04_15h42m10s.log
-database/in/ipca_bruto_20250904_154210.json
+resultados:
+  saida: "database/out/"
+  exemplos_csv_parquet:
+    - "ipca_04-09-2025-15-42.csv"
+    - "ipca_04-09-2025-15-42.parquet"
+  logs: "database/log/"
+  exemplos_logs:
+    - "2025-09-04_15h42m10s.log"
+  entradas: "database/in/"
+  exemplos_json:
+    - "ipca_bruto_20250904_154210.json"
 
