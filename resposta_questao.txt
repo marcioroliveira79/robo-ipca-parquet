@@ -1,0 +1,11 @@
+Quando não existe um link direto para baixar os dados e o acesso depende de login, menus ou botões, a saída é usar web scraping com automação de navegação. 
+Ferramentas como Selenium ou Playwright simulam o usuário no navegador, clicando, preenchendo formulários e chegando até a área onde o arquivo pode ser exportado.
+
+O fluxo é simples: o robô entra no site, faz login (se preciso), percorre menus até encontrar a opção de exportação e, então, baixa o arquivo. 
+Se não houver essa função, ele pode capturar os dados exibidos em tela e organizá-los em uma tabela.
+
+Há desafios, como lidar com páginas dinâmicas, captchas e eventuais bloqueios do portal. 
+Por isso, é essencial programar o processo de forma robusta, com checagens de carregamento e tratamento de erros.
+
+Depois, os dados coletados podem ser convertidos para CSV ou Parquet, integrando ao pipeline de ETL já existente. 
+Assim, mesmo sem um link direto, é possível automatizar a coleta de forma prática e confiável, sempre respeitando as regras do site.
