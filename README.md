@@ -11,13 +11,7 @@ O processo realiza as seguintes etapas:
 
 ---
 
-## 🔹 Clonar o repositório
-```bash
-git clone https://github.com/marcioroliveira79/robo-ipca-parquet.git
-cd robo-ipca-parquet
-
 ## 📂 Estrutura do Projeto
-```text
 robo-ipca-parquet/
 │
 ├── database/           # Dados usados e gerados pelo robô
@@ -38,3 +32,8 @@ robo-ipca-parquet/
 ├── .gitignore          # Arquivos ignorados pelo Git
 └── README.md           # Este arquivo
 
+
+## 🔹 Clonar o repositório
+```bash
+git clone https://github.com/marcioroliveira79/robo-ipca-parquet.git
+cd robo-ipca-parquet
