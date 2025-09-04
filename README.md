@@ -10,6 +10,7 @@ O processo realiza as seguintes etapas:
 4. Gera **logs** de execução e mantém métricas simples.  
 
 ---
+
 ## 📂 Estrutura do Projeto
 ```text
 robo-ipca-parquet/
@@ -27,11 +28,6 @@ robo-ipca-parquet/
 ├── .gitignore
 └── README.md
 
-
-
-
-```markdown
-## 🔹 Clonar o repositório
-```bash
+🔹 Clonar o repositório
 git clone https://github.com/marcioroliveira79/robo-ipca-parquet.git
 cd robo-ipca-parquet
