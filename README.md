@@ -33,7 +33,5 @@ robo-ipca-parquet/
 ├── .gitignore          # Arquivos ignorados pelo Git
 └── README.md           # Este arquivo
 
-### Passo 1: Clonar o repositório
-```bash
 git clone https://github.com/marcioroliveira79/robo-ipca-parquet.git
 cd robo-ipca-parquet
