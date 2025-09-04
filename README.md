@@ -28,6 +28,7 @@ robo-ipca-parquet/
 ├── .gitignore
 └── README.md
 
-🔹 Clonar o repositório
+## 📂 Estrutura do Projeto
+```text
 git clone https://github.com/marcioroliveira79/robo-ipca-parquet.git
 cd robo-ipca-parquet
