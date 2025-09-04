@@ -40,11 +40,21 @@ chmod +x setup.sh
 ./setup.sh
 ```
 
-Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
+## ⚙️ Execução
 
-## ⚙️ Executando os testes
-
-Explicar como executar os testes automatizados para este sistema.
+Se sua .venv não estiver ativada
+Windows
+```
+.venv\Scripts\activate.bat
+```
+Linux
+```
+source .venv/bin/activate
+```
+Executar
+```
+python main.py
+```
 
 ### 🔩 Analise os testes de ponta a ponta
 
@@ -53,10 +63,14 @@ Explique que eles verificam esses testes e porquê.
 ```
 Dar exemplos
 ```
+### ⌨️ Resultados
 
-### ⌨️ E testes de estilo de codificação
-
-Explique que eles verificam esses testes e porquê.
+- Saída (resultados): database/out/
+- Arquivos .csv e .parquet com timestamp no nome (ex.: ipca_04-09-2025-15-42.csv).
+- Logs: database/log/
+- Arquivos .log contendo os detalhes de cada execução.
+- Entradas brutas: database/in/
+- O JSON baixado diretamente do SIDRA/IBGE, salvo com timestamp.
 
 ```
 Dar exemplos
