@@ -28,6 +28,8 @@ Observação: os arquivos `.dir` servem apenas para manter as pastas no Git, já
 git clone https://github.com/marcioroliveira79/robo-ipca-parquet.git
 cd robo-ipca-parquet
 
+setup.bat
+
 ### Criar ambiente no Windows
 setup.bat
 
