@@ -14,7 +14,7 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 
 ### 📋 Pré-requisitos
 
-- **Python 3.9+** instalado no sistema.
+- **Python 3.9+** ou superior.
 - **Git** para clonar o repositório.
 
 
@@ -28,6 +28,16 @@ git clone https://github.com/marcioroliveira79/robo-ipca-parquet.git
 
 ```
 cd robo-ipca-parquet
+```
+No Windows
+
+```
+setup.bat
+```
+No Linux
+```
+chmod +x setup.sh
+./setup.sh
 ```
 
 Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
