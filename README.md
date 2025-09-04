@@ -29,12 +29,12 @@ git clone https://github.com/marcioroliveira79/robo-ipca-parquet.git
 ```
 cd robo-ipca-parquet
 ```
-No Windows
+🪟 Windows
 
 ```
 setup.bat
 ```
-No Linux
+🐧 Linux
 ```
 chmod +x setup.sh
 ./setup.sh
@@ -43,11 +43,11 @@ chmod +x setup.sh
 ## ▶️ Execução
 
 Se sua .venv não estiver ativada
-Windows
+🪟 Windows
 ```
 .venv\Scripts\activate.bat
 ```
-Linux
+🐧 Linux
 ```
 source .venv/bin/activate
 ```
