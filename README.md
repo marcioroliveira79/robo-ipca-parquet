@@ -10,30 +10,7 @@ O processo realiza as seguintes etapas:
 4. Gera **logs** de execução e mantém métricas simples de processamento.  
 
 ---
-
-## 📂 Estrutura do Projeto
-robo-ipca-parquet/
-│
-├── database/ # Base de dados local usada pelo robô
-│ ├── in/ # Arquivos de entrada (JSON bruto baixado)
-│ │ └── .dir
-│ ├── log/ # Arquivos de log gerados durante execução
-│ │ └── .dir
-│ └── out/ # Arquivos de saída (CSV/Parquet)
-│ └── .dir
-│
-├── modules/ # Módulos auxiliares em Python
-│ └── funcs_auxiliares.py
-│
-├── main.py # Script principal do robô (orquestra todo o processo)
-│
-├── requirements.txt # Dependências do projeto
-│
-├── setup.bat # Script de instalação (Windows)
-├── setup.sh # Script de instalação (Linux/Mac)
-│
-├── .gitignore # Ignora arquivos gerados automaticamente
-└── README.md # Este arquivo
+<img width="251" height="235" alt="image" src="https://github.com/user-attachments/assets/23ea5d6c-87db-4b5f-ac7d-e117a8ae3231" />
 
 
 Observação: os arquivos `.dir` servem apenas para manter as pastas no Git, já que o Git não versiona diretórios vazios.
