@@ -1,0 +1,30 @@
+# Ambiente virtual
+.venv/
+
+# Arquivos de log
+database/log/*
+!database/log/.dir
+
+# Arquivos de entrada
+database/in/*
+!database/in/.dir
+
+# Arquivos de saída
+database/out/*
+!database/out/.dir
+
+# Arquivos temporários / cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.tmp
+
+# Configurações locais do VSCode ou IDE
+.vscode/
+.idea/
+
+# Arquivos de sistema (Windows / Mac)
+Thumbs.db
+Desktop.ini
+.DS_Store

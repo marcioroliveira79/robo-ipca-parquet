@@ -1,0 +1,53 @@
+Projeto: ROBO-IPCA-PARQUET
+---------------------------------
+
+Estrutura de pastas e arquivos:
+
+.venv/
+    Ambiente virtual Python usado para isolar as dependências do projeto.
+    Não precisa ser versionado no Git, cada pessoa cria o seu localmente
+    com o script de setup.
+
+database/
+    Estrutura para armazenar os dados utilizados e gerados pelo robô.
+
+    in/
+        Local onde ficam armazenados os arquivos de entrada.
+        O arquivo ".dir" está presente apenas para garantir que a pasta
+        seja versionada no Git (pastas vazias não sobem).
+
+    log/
+        Local onde ficam armazenados os arquivos de log gerados durante
+        a execução do processo.
+        O arquivo ".dir" está presente apenas para garantir que a pasta
+        seja versionada no Git.
+
+    out/
+        Local onde ficam armazenados os arquivos de saída (CSV/Parquet).
+        O arquivo ".dir" está presente apenas para garantir que a pasta
+        seja versionada no Git.
+
+modules/
+    Contém os módulos auxiliares do projeto.
+    funcs_auxiliares.py -> funções de suporte (log, métricas, download, etc.)
+
+main.py
+    Script principal. Orquestra o fluxo:
+    - Faz o download dos dados do SIDRA/IBGE
+    - Normaliza em DataFrame
+    - Salva os resultados em CSV/Parquet
+
+requirements.txt
+    Lista as dependências necessárias do projeto.
+    Usado pelo pip para instalar os pacotes automaticamente.
+
+setup.bat
+    Script de inicialização para Windows.
+    Cria o ambiente virtual .venv e instala as dependências.
+
+setup.sh
+    Script de inicialização para Linux/Mac.
+    Cria o ambiente virtual .venv e instala as dependências.
+
+README.txt
+    Este arquivo. Explica a estrutura e função de cada pasta/arquivo.
