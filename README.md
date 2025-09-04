@@ -22,16 +22,12 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 
 Iremos clonar o repositório
 
-Clone:
-
 ```
 git clone https://github.com/marcioroliveira79/robo-ipca-parquet.git
 ```
 
-E repita:
-
 ```
-Até finalizar
+cd robo-ipca-parquet
 ```
 
 Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
