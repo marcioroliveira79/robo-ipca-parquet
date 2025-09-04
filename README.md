@@ -40,7 +40,7 @@ chmod +x setup.sh
 ./setup.sh
 ```
 
-## ⚙️ Execução
+## ▶️ Execução
 
 Se sua .venv não estiver ativada
 Windows
@@ -63,7 +63,7 @@ Explique que eles verificam esses testes e porquê.
 ```
 Dar exemplos
 ```
-### ⌨️ Resultados
+### 📊 Resultados
 
 - Saída (resultados): database/out/
 - Arquivos .csv e .parquet com timestamp no nome (ex.: ipca_04-09-2025-15-42.csv).
