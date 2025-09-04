@@ -52,10 +52,3 @@ database/out/ipca_04-09-2025-15-42.csv
 database/out/ipca_04-09-2025-15-42.parquet
 database/log/2025-09-04_15h42m10s.log
 database/in/ipca_bruto_20250904_154210.json
-
-
----
-
-👉 Assim, cada passo aparece **como uma seção com título** e **uma caixa separada com os comandos/textos**, igual ao estilo que você mostrou na imagem do GitHub.  
-
-Quer que eu adicione também uma seção final **✅ Conclusão** só para fechar o README de forma profissional?
