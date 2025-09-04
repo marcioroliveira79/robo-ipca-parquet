@@ -20,9 +20,8 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 
 ### 🔧 Instalação
 
-Clone o repoitório:
-git clone https://github.com/marcioroliveira79/robo-ipca-parquet.git
-cd robo-ipca-parquet
+Clone o repoitório: git clone https://github.com/marcioroliveira79/robo-ipca-parquet.git
+Depois: cd robo-ipca-parquet
 
 Diga como essa etapa será:
 
