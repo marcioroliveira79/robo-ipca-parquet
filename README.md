@@ -10,29 +10,22 @@ O processo realiza as seguintes etapas:
 4. Gera **logs** de execução e mantém métricas simples.  
 
 ---
-
 ## 📂 Estrutura do Projeto
-'''text
+```text
 robo-ipca-parquet/
 │
-├── database/           # Dados usados e gerados pelo robô
-│   ├── in/             # Entradas (JSON bruto)
-│   │   └── .dir
-│   ├── log/            # Logs
-│   │   └── .dir
-│   └── out/            # Resultados (CSV/Parquet)
-│       └── .dir
+├── database/
+│   ├── in/      # Entradas (JSON bruto)
+│   ├── log/     # Logs
+│   └── out/     # Resultados (CSV/Parquet)
 │
-├── modules/            # Funções auxiliares
-│   └── funcs_auxiliares.py
-│
-├── main.py             # Script principal
-├── requirements.txt    # Dependências
-├── setup.bat           # Instalação (Windows)
-├── setup.sh            # Instalação (Linux/Mac)
-├── .gitignore          # Arquivos ignorados pelo Git
-└── README.md           # Este arquivo
-
+├── modules/     # Funções auxiliares
+├── main.py      # Script principal
+├── requirements.txt
+├── setup.bat    # Instalação (Windows)
+├── setup.sh     # Instalação (Linux/Mac)
+├── .gitignore
+└── README.md
 
 ## 🔹 Clonar o repositório
 ```bash
