@@ -32,6 +32,3 @@ robo-ipca-parquet/
 ├── setup.sh            # Instalação (Linux/Mac)
 ├── .gitignore          # Arquivos ignorados pelo Git
 └── README.md           # Este arquivo
-
-git clone https://github.com/marcioroliveira79/robo-ipca-parquet.git
-cd robo-ipca-parquet
