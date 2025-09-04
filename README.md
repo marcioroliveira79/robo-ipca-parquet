@@ -43,6 +43,7 @@ chmod +x setup.sh
 ## ▶️ Execução
 
 Se sua .venv não estiver ativada
+
 🪟 Windows
 ```
 .venv\Scripts\activate.bat
