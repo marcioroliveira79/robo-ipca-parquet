@@ -1,24 +1,28 @@
-# Título do projeto
+# ROBO-IPCA-PARQUET
 
-Um parágrafo da descrição do projeto vai aqui
+Este projeto é um **robô em Python** que automatiza a coleta de dados do **IPCA** (Índice de Preços ao Consumidor Amplo) a partir do site do **SIDRA/IBGE**.  
+O processo realiza as seguintes etapas:
+
+1. Faz o download dos dados do IPCA em formato JSON.  
+2. Normaliza o conteúdo para uma estrutura tabular (DataFrame).  
+3. Salva os resultados em **Parquet** e **CSV**.  
+4. Gera **logs** de execução e mantém métricas simples.  
 
 ## 🚀 Começando
 
 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
 
-Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar o projeto.
-
 ### 📋 Pré-requisitos
 
-De que coisas você precisa para instalar o software e como instalá-lo?
+- **Python 3.9+** instalado no sistema.
+- **Git** para clonar o repositório.
 
-```
-Dar exemplos
-```
 
 ### 🔧 Instalação
 
-Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
+Clone o repoitório:
+git clone https://github.com/marcioroliveira79/robo-ipca-parquet.git
+cd robo-ipca-parquet
 
 Diga como essa etapa será:
 
