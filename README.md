@@ -56,13 +56,6 @@ Executar
 python main.py
 ```
 
-### 🔩 Analise os testes de ponta a ponta
-
-Explique que eles verificam esses testes e porquê.
-
-```
-Dar exemplos
-```
 ### 📊 Resultados
 
 - Saída (resultados): database/out/
@@ -72,13 +65,12 @@ Dar exemplos
 - Entradas brutas: database/in/
 - O JSON baixado diretamente do SIDRA/IBGE, salvo com timestamp.
 
-```
-Dar exemplos
-```
+## 📄 Exmplos de saídas
 
-## 📦 Implantação
-
-Adicione notas adicionais sobre como implantar isso em um sistema ativo
+- database/out/ipca_04-09-2025-15-42.csv
+- database/out/ipca_04-09-2025-15-42.parquet
+- database/log/2025-09-04_15h42m10s.log
+- database/in/ipca_bruto_20250904_154210.json
 
 ## 🛠️ Construído com
 
