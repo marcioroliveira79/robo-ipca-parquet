@@ -77,3 +77,20 @@ python main.py
 
 * [Visual Studio Code](https://code.visualstudio.com/) - Editor de código usado
 * [Python](https://www.python.org/) - Linguagem de programação utilizada
+
+## 📂 Estrutura do Projeto
+```text
+robo-ipca-parquet/
+│
+├── database/
+│   ├── in/      # Entradas (JSON bruto)
+│   ├── log/     # Logs
+│   └── out/     # Resultados (CSV/Parquet)
+│
+├── modules/     # Funções auxiliares
+├── main.py      # Script principal
+├── requirements.txt
+├── setup.bat    # Instalação (Windows)
+├── setup.sh     # Instalação (Linux/Mac)
+├── .gitignore
+└── README.md
