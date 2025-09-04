@@ -12,6 +12,7 @@ O processo realiza as seguintes etapas:
 ---
 
 ## 📂 Estrutura do Projeto
+'''text
 robo-ipca-parquet/
 │
 ├── database/           # Dados usados e gerados pelo robô
