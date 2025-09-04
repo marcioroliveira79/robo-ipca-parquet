@@ -1,0 +1,2 @@
+# força o setup.sh a usar LF
+setup.sh text eol=lf
