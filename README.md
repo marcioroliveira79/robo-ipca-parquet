@@ -11,7 +11,7 @@ O processo realiza as seguintes etapas:
 
 ---
 
-## 📂 Estrutura do Projeto
+## 📂 Estrutura do Projeto e Instalação/Execução
 ```text
 robo-ipca-parquet/
 │
@@ -28,7 +28,34 @@ robo-ipca-parquet/
 ├── .gitignore
 └── README.md
 
-## 📂 Estrutura do Projeto
-```text
+🔹 Clonar o repositório
 git clone https://github.com/marcioroliveira79/robo-ipca-parquet.git
 cd robo-ipca-parquet
+
+📦 Criar ambiente virtual no Windows
+setup.bat 
+
+🐧 Criar ambiente virtual no Linux/Mac
+chmod +x setup.sh
+./setup.sh
+
+▶️ Executar o robô
+python main.py
+
+📊 Resultados
+database/out/   -> Saída (CSV e Parquet, com timestamp no nome)
+database/log/   -> Logs (.log)
+database/in/    -> JSON bruto baixado do SIDRA/IBGE
+
+📄 Exemplos de saída
+database/out/ipca_04-09-2025-15-42.csv
+database/out/ipca_04-09-2025-15-42.parquet
+database/log/2025-09-04_15h42m10s.log
+database/in/ipca_bruto_20250904_154210.json
+
+
+---
+
+👉 Assim, cada passo aparece **como uma seção com título** e **uma caixa separada com os comandos/textos**, igual ao estilo que você mostrou na imagem do GitHub.  
+
+Quer que eu adicione também uma seção final **✅ Conclusão** só para fechar o README de forma profissional?
