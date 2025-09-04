@@ -35,10 +35,10 @@ setup.bat
 chmod +x setup.sh
 ./setup.sh
 
-#### ▶️ Execução
+#### Passo 2: ▶️ Execução
 python main.py
 
-##### 📊 Resultados
+#### 📊 Resultados
 
 Saída (resultados): database/out/
 Arquivos .csv e .parquet com timestamp no nome (ex.: ipca_04-09-2025-15-42.csv).
@@ -47,7 +47,7 @@ Arquivos .log contendo os detalhes de cada execução.
 Entradas brutas: database/in/
 O JSON baixado diretamente do SIDRA/IBGE, salvo com timestamp.
 
-###### 📄 Exemplos de saída
+#### 📄 Exemplos de saída
 
 database/out/ipca_04-09-2025-15-42.csv
 database/out/ipca_04-09-2025-15-42.parquet
