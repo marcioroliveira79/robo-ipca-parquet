@@ -27,7 +27,6 @@ robo-ipca-parquet/
 ├── .gitignore
 └── README.md
 
----
 ```markdown
 ## 🔹 Clonar o repositório
 ```bash
