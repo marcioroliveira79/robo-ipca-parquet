@@ -2,11 +2,11 @@
 .venv/
 
 # Arquivos de log
-database/log/*
+#database/log/*
 !database/log/.dir
 
 # Arquivos de entrada
-database/in/*
+#database/in/*
 !database/in/.dir
 
 # Arquivos de saída

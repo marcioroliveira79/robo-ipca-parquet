@@ -1,0 +1,8 @@
+{"ts": "2025-09-05 00:44:17", "nivel": "INFO", "mensagem": "Início do processo"}
+{"ts": "2025-09-05 00:44:17", "nivel": "INFO", "mensagem": "Etapa: download do JSON"}
+{"ts": "2025-09-05 00:44:17", "nivel": "DEBUG", "mensagem": "Baixando dados do SIDRA (tentativa 1/3)...", "contexto": {"url": "https://sidra.ibge.gov.br/Ajax/JSon/Tabela/1/1737?versao=-1"}}
+{"ts": "2025-09-05 00:44:18", "nivel": "INFO", "mensagem": "Etapa: normalização"}
+{"ts": "2025-09-05 00:44:18", "nivel": "INFO", "mensagem": "Normalização concluída (lista de dicionários).", "contexto": {"linhas": 548}}
+{"ts": "2025-09-05 00:44:18", "nivel": "INFO", "mensagem": "Etapa: salvamento"}
+{"ts": "2025-09-05 00:44:18", "nivel": "INFO", "mensagem": "Arquivos salvos.", "contexto": {"parquet": "C:\\projetos_python\\robo-ipca-parquet\\database\\out\\ipca_05-09-2025-00-44.parquet", "csv": "C:\\projetos_python\\robo-ipca-parquet\\database\\out\\ipca_05-09-2025-00-44.csv"}}
+{"ts": "2025-09-05 00:44:18", "nivel": "INFO", "mensagem": "Processo concluído em 0.80s"}

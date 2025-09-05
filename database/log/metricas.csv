@@ -1,0 +1,7 @@
+timestamp,nome,valor,tags
+2025-09-04 14:50:52,linhas_salvas,548.0,"{""nome_base"": ""ipca"", ""timestamp"": ""04-09-2025-14-50""}"
+2025-09-04 14:50:52,execucoes_ok,1.0,{}
+2025-09-05 00:44:18,linhas_salvas,548.0,"{""nome_base"": ""ipca"", ""timestamp"": ""05-09-2025-00-44""}"
+2025-09-05 00:44:18,execucoes_ok,1.0,{}
+2025-09-05 00:46:52,linhas_salvas,548.0,"{""nome_base"": ""ipca"", ""timestamp"": ""05-09-2025-00-46""}"
+2025-09-05 00:46:52,execucoes_ok,1.0,{}
