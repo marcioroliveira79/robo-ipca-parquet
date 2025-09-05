@@ -10,7 +10,7 @@ database/in/*
 !database/in/.dir
 
 # Arquivos de saída
-database/out/*
+#database/out/*
 !database/out/.dir
 
 # Arquivos temporários / cache do Python
